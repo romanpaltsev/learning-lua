@@ -39,9 +39,49 @@
 
 -- print("Hello\nWorld\t!!!!!\vI'm Roman")
 
-local str = "Hello World"
+-- local str = "Hello World"
+
 -- print(string.lower(str))
 -- print(#str)
+
 -- print(string.len(str))
+
 -- print(string.byte("A"))
-print(string.format("pi: %.2f"))
+
+-- print(string.format("pi: %.2f\nMy age: %i", math.pi, 36))
+
+-- print(string.find(str, "orl"))
+
+-- local begin, ending = string.find(str, "orl")
+-- print("Begin: " .. begin .. "\nEnd: " .. ending)
+
+-- print(string.gsub(str, "o", "!"))
+
+
+--[[
+    Все типы данных неизменяемые кроме table
+]]
+
+
+
+--[[
+    Уроки по if
+]]
+
+-- local age = 36
+-- local name = "Roman1"
+
+-- if age > 18 and name == "Roman" then
+--     print("Доступ разрешен")
+-- else
+--     print("Доступ запрещен")
+-- end
+
+
+--[[
+    Уроки по циклам
+]]
+
+for i = 1, 10000, 2 do
+    print(i)
+end
