@@ -82,6 +82,53 @@
     Уроки по циклам
 ]]
 
-for i = 1, 10000, 2 do
-    print(i)
+-- local count = 0
+-- while count <= 10 do
+--     print("Число: " .. count)
+--     count = count + 1
+
+-- end
+
+-- for i = 1, 10000000, 5 do
+--     print("Счетчик: " .. i .. "\t" .. math.random(1, i))
+-- end
+
+
+--[[
+    Уроки по таблицам
+]]
+
+-- local colors = {"black", "green", "red", "purple"}
+
+-- for i = 1, #colors do
+--     print(colors[i])
+-- end
+
+-- local arr = {}
+
+-- while true do
+--     local item = io.read()
+--     arr[#arr + 1] = item
+
+--     print(table.unpack(arr))
+--     if item == "exit" then
+--         print("До встречи!")
+--         break
+--     end
+-- end
+
+-- local items = {"sword", "shield", "potion"}
+-- items[2] = nil
+-- print(#items)
+
+
+
+--[[
+    Уроки по функциям
+]]
+
+function show_coins(amount)
+    print("Монет: " .. amount)
 end
+
+show_coins(55)
